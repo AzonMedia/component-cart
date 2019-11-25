@@ -1,0 +1,27 @@
+{
+    "name": "guzaba-platform/cart",
+    "type": "guzaba-platform-component",
+    "description": "Shopping cart component for GuzabaPlatform",
+    "keywords": ["shopping cart"],
+    "homepage": "https://github.com/AzonMedia/component-cart",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Vesko Kenashkov",
+            "email": "kenashkov@azonmedia.com",
+            "homepage": "http://azonmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "guzaba-platform/cart-base": "dev-master",
+        "guzaba-platform/components-base": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzabaPlatform\\Cart\\": "app/src/"
+        }
+    }
+}
